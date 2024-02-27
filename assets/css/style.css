@@ -3,7 +3,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Strike&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* || General Styles */
+/* || Navigation Media Queries || */
+
+@media (min-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa-solid {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+        text-align: center;
+        flex-direction: column;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa-solid {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar.navbar-expand-sm .navbar-brand {
+        padding: 17px 0px 17px 0px;
+    }
+}
+
+/* || General Styles || */
 
 body {
     background-color: #212529;
@@ -42,7 +86,7 @@ h3 {
     font-size: calc(1.325rem + .9vw)
 }
 
-/* || Navigation */
+/* || Navigation || */
 
 .navbar-icon-top .navbar-nav .nav-link>.fa-solid {
     position: relative;
