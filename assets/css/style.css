@@ -92,6 +92,13 @@ h3 {
     --bs-gutter-x: 0rem;
 }
 
+/* || Padding || */
+
+.section-padding {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
 /* || Header - Navigation || */
 
 .navbar-icon-top .navbar-nav .nav-link>.fa-solid {
