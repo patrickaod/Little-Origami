@@ -92,7 +92,7 @@ h3 {
     --bs-gutter-x: 0rem;
 }
 
-/* || Navigation || */
+/* || Header - Navigation || */
 
 .navbar-icon-top .navbar-nav .nav-link>.fa-solid {
     position: relative;
@@ -139,4 +139,27 @@ h3 {
     border-radius: 50%;
     height: 30px;
     width: 30px;
+}
+
+/* || Introduction Section || */
+
+.intro-cont {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.intro-cont a {
+    color: yellow;
+}
+
+.intro-cont a:hover {
+    color: #870000;
+}
+
+#intro-vd.ratio {
+    height: 40%;
+    width: 40%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
 }
