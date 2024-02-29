@@ -254,3 +254,47 @@ h3 {
 .card-space .tech-card .card-axis .content p {
     font-size: 1rem;
 }
+
+/* || Beginner's Guide || */
+
+#info-deck.carousel {
+    height: 75%;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 10px 20px rgb(21, 21, 21);
+}
+
+#info-deck.carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 0%;
+    bottom: auto;
+    overflow-y: auto;
+}
+
+#info-deck.carousel .carousel-inner .carousel-item .carousel-caption.firstslide {
+    top: 17%;
+    bottom: auto;
+}
+
+#info-deck.carousel .carousel-inner .carousel-item .carousel-caption h2,
+#info-deck.carousel .carousel-inner .carousel-item .carousel-caption p {
+    color: black;
+
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 4rem;
+    height: 6rem;
+}
+
+.ratio {
+    height: 460px;
+    width: 260px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: auto;
+    margin-left: 0;
+}
