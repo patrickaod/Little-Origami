@@ -367,3 +367,64 @@ a:hover {
     background: rgb(131, 58, 180); /* Background colour if gradients aren't supported */
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
+
+/* || History || */
+
+.position{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.position .txt-cont{
+    height: auto;
+    width: 60%;
+    background: #212529;
+    padding: 20px;
+    text-align: center;
+}
+
+.position .txt-cont .h3{
+   letter-spacing: 1px;
+  
+}
+
+.position img{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    max-height: 100vh;
+}
+
+.translate{
+    animation: translate linear;
+    animation-timeline: view();
+    animation-range: entry;
+}
+
+.roll-in{
+    animation: roll-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+}
+
+.fade-out{
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit -300px;
+}
+
+@keyframes roll-in {
+    from { transform: translateY(-90%); opacity: 0; filter: blur(5px)};
+}
+
+@keyframes translate {
+    from { transform: translateX(-100%); filter: blur(5px)};
+}
+
+@keyframes fade-out {
+    from{opacity: 1;}
+    60%{filter:blur(2.5px)}
+    to{opacity: 0;filter: blur(0);}
+}
