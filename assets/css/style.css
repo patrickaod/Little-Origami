@@ -324,3 +324,36 @@ h3 {
     margin: auto;
     margin-left: 0;
 }
+
+/* || Footer || */
+
+.end {
+    width: 100%;
+}
+
+li {
+    padding-top: 4px;
+    margin: auto;
+}
+
+a>.fa-brands {
+    font-size: 200%;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: #870000;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.footer-contact .btn {
+    width: 100%
+}
