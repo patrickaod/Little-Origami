@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+@import React, { useState } from 'react';
+@import { useHistory } from 'react-router-dom';
 
 <head>
     <meta charset="UTF-8">
@@ -19,3 +21,92 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Little Origami - Contact Us</title>
 </head>
+
+<body>
+    <header>
+        <!--Bootstrap 5 Navigation Bar-->
+        <nav class="navbar navbar-expand-sm navbar-icon-top navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex" href="index.html">
+                    <img src="assets/images/logo/red-kick-logo.png" alt="Logo" height="35"
+                        class="d-inline-block align-top">
+                    <h1>Little Origami</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto">
+                        <li><a class="nav-link" aria-current="page" href="index.html"><i
+                                    class="fa-solid fa-house"></i>Home</a></li>
+                        <li><a class="nav-link active" href="history.html"><i
+                                    class="fa-solid fa-earth-asia"></i>History<span class="sr-only">(Current)</a></li>
+                        <li><a class="nav-link" href="contact.html"><i class="fa-solid fa-comments"></i>Contact
+                                Us</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Contact Form -->
+    <main>
+        <section class="section-padding d-flex justify-content-center alt-bg">
+            <div class="card">
+                <div class="card-header"> Contact Form </div>
+                <form class="card-body" id="contact-form" method="post">
+                    <!-- First name & Last name -->
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="firstname" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First Name" required
+                                aria-describedby="First name" name="firstname">
+                        </div>
+                        <div class="col">
+                            <label for="lastname" class="form-label ">Last name</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name" required
+                                aria-describedby="Last name" name="lastname">
+                        </div>
+                    </div>
+                    <!-- Email Address -->
+                    <div class="col mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@email.com" required
+                            aria-describedby="email" name="email">
+                    </div>
+                    <!-- Text Area -->
+                    <div>
+                        <label for="message" class="form-label">Write your message below: </label>
+                        <textarea class="form-control" id="message" rows="5" name="message" required></textarea>
+                    </div>
+                    <!-- Submission Button -->
+                    <div class="col pt-2">
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Social Media -->
+    <footer class="section-padding end row">
+        <!-- Thank You Message -->
+        <div class="text-center">
+            <h2>Thank you!</h2>
+            <p> For taking your time to review my website. You are apprecieted, and I hope you have a great day!</p>
+        </div>
+        <!-- Social Media Links -->
+        <div class="social-cont">
+            <h3>Find Us On Social Media :</h3>
+            <ul class="d-flex">
+                <li><a href="https://en-gb.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.snapchat.com/" target="_blank"><i class="fa-brands fa-snapchat"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
