@@ -434,3 +434,11 @@ a:hover {
     60%{filter:blur(2.5px)}
     to{opacity: 0;filter: blur(0);}
 }
+
+/* || Contact || */
+
+.social-cont {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
