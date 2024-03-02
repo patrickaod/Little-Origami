@@ -160,6 +160,11 @@ h3 {
     background-image: linear-gradient(180deg, #190a05, #870000);
 }
 
+.alt-bg2 {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    min-height: 100vh;
+}
+
 /* || Header - Navigation || */
 
 .navbar-icon-top .navbar-nav .nav-link>.fa-solid {
@@ -442,3 +447,68 @@ a:hover {
     padding-right: 25%;
 }
 
+/* || Confirmation || */
+
+.confirm-css {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.confirm-cont {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-image: repeating-conic-gradient(from var(--a), white 0%, white 5%,
+            transparent 5%, transparent 40%, white 50%);
+    animation: rotation 4s linear infinite;
+    border-radius: 20px;
+}
+
+
+@property --a {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+
+}
+
+@keyframes rotation {
+    0% {
+        --a: 0deg;
+    }
+
+    100% {
+        --a: 360deg;
+    }
+
+}
+
+.confirm-cont::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: repeating-conic-gradient(from var(--a), white 0%, white 5%,
+            transparent 5%, transparent 40%, white 50%);
+    animation: rotation 4s linear infinite;
+    animation-delay: 1s;
+    border-radius: 20px;
+}
+
+.confirm-cont::after {
+    content: '';
+    position: absolute;
+    inset: 8px;
+    background: linear-gradient(180deg, #190a05, #870000);
+    border-radius: 15px;
+    border: 8px solid #212529;
+}
+
+.confirm-cont div p {
+    position: relative;
+    text-align: center;
+    margin: 30px;
+    z-index: 1;
+}
