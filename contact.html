@@ -54,7 +54,7 @@
         <section class="section-padding d-flex justify-content-center alt-bg">
             <div class="card">
                 <div class="card-header"> Contact Form </div>
-                <form class="card-body" id="contact-form" method="post">
+                <form class="card-body" id="contact-form" method="post" onsubmit="submitForm(); return false;">
                     <!-- First name & Last name -->
                     <div class="row mb-3">
                         <div class="col">
@@ -106,7 +106,20 @@
             </ul>
         </div>
     </footer>
+    <script>
+        function submitForm() {
+            // Get form data
+            var formData = new FormData(document.getElementById("contact-form"));
 
+            // Send form data to one URL using XMLHttpRequest
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "https://formdump.codeinstitute.net/", true);
+            xhr.send(formData);
+
+            // Redirect the user to another URL
+            window.location.href = "confirmation.html";
+        }
+    </script>
 </body>
 
 </html>
