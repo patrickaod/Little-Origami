@@ -51,13 +51,15 @@
             </div>
         </nav>
     </header>
-    <!-- Contact Form -->
     <main>
+        <!-- Contact Form -->
         <section class="section-padding d-flex justify-content-center alt-bg">
             <div class="card">
+                <!-- Contact Form Header -->
                 <div class="card-header"> Contact Form </div>
+                <!-- Contact Form Body -->
                 <form class="card-body" id="contact-form" method="post" onsubmit="submitForm(); return false;">
-                    <!-- First name & Last name -->
+                    <!-- First Name & Last Name -->
                     <div class="row mb-3">
                         <div class="col">
                             <label for="firstname" class="form-label">First name</label>
@@ -89,7 +91,7 @@
             </div>
         </section>
     </main>
-    <!-- Social Media -->
+    <!-- User Message & Social Media -->
     <footer class="section-padding end row">
         <!-- Thank You Message -->
         <div class="text-center">
@@ -109,6 +111,7 @@
         </div>
     </footer>
     <script>
+        // Redirection Script
         function submitForm() {
             // Get form data
             var formData = new FormData(document.getElementById("contact-form"));
