@@ -1,4 +1,4 @@
-![Little Origami Banner](assets\images\logo\Little-Origami-banner.png)
+![Little-Origami-banner](assets\images\logo\Little-Origami-banner.png)
 
  An introductory website aimed at informing the reader about the evolution and transition of Jiu-Jitsu throughout the world, and how anyone can start today!
 
