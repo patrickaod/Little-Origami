@@ -3,143 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Strike&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* || Navigation Media Queries || */
-
-@media (min-width: 576px) {
-    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
-        text-align: center;
-        display: table-cell;
-        height: 70px;
-        vertical-align: middle;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa-solid {
-        display: block;
-        width: 48px;
-        margin: 2px auto 4px auto;
-        top: 0;
-        line-height: 24px;
-    }
-}
-
-@media (max-width: 576px) {
-    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
-        text-align: center;
-        flex-direction: column;
-        height: 70px;
-        vertical-align: middle;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa-solid {
-        display: block;
-        width: 48px;
-        margin: 2px auto 4px auto;
-        top: 0;
-        line-height: 24px;
-    }
-
-    .navbar.navbar-expand-sm .navbar-brand {
-        padding: 17px 0px 17px 0px;
-    }
-}
-
-/* || Beginner's Gudie Media Queries || */
-
-@media (max-width: 2340px) {
-    .vid2 {
-        display: none;
-    }
-
-}
-
-@media (max-width: 1560px) {
-    .vid1 {
-        display: none;
-    }
-
-}
-
-@media (min-width: 2000px) {
-
-    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 4rem;
-    }
-
-    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption p {
-        font-size: 2rem;
-    }
-}
-
-/* || History Media Queries|| */
-
-@media (prefers-reduced-motion: no-preference){
-    
-    .translate{
-        animation: translate linear;
-        animation-timeline: view();
-        animation-range: entry;
-    }
-    
-    .roll-in{
-        animation: roll-in linear forwards;
-        animation-timeline: view();
-        animation-range: entry;
-    }
-    
-    .fade-out{
-        animation: fade-out linear;
-        animation-timeline: view();
-        animation-range: exit -300px;
-    }
-}
-
-/* || Confirmation Media Queries|| */
-
-@media (prefers-reduced-motion: no-preference){
-    
-    .confirm-cont {
-        position: relative;
-        width: fit-content;
-        height: fit-content;
-        background-image: repeating-conic-gradient(from var(--a), white 0%, white 5%,
-        transparent 5%, transparent 40%, white 50%); /* Loading bar colours */
-                animation: rotation 4s linear infinite;
-        border-radius: 20px;
-    }
-
-    .confirm-cont::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: repeating-conic-gradient(from var(--a), white 0%, white 5%,
-                transparent 5%, transparent 40%, white 50%); /* Second loading bar colours */
-        animation: rotation 4s linear infinite;
-        animation-delay: 1s;
-        border-radius: 20px;
-    }
-
-    @property --a {
-        syntax: '<angle>';
-        inherits: false;
-        initial-value: 0deg;
-    }
-    
-    @keyframes rotation { /* Rotates the static backgorund */
-        0% {
-            --a: 0deg;
-        }
-    
-        100% {
-            --a: 360deg;
-        }
-    }
-}
-
 /* || General Styles || */
 
 body {
@@ -155,10 +18,10 @@ body {
 p {
     font-family: Roboto, var(--bs-body-font-family), sans-serif;
     color: white;
-    font-size: calc(45 * (100vw / 2560));
+    font-size: clamp(1rem, 6vw, 2rem);
 }
 
-h1 { 
+h1 {
     font-family: Protest Revolution, var(--bs-body-font-family), sans-serif;
     color: yellow;
 }
@@ -199,12 +62,14 @@ h3 {
 /* || Backgrounds || */
 
 .alt-bg {
-    background-color: #870000; /* Background colour if gradients aren't supported */
+    background-color: #870000;
+    /* Background colour if gradients aren't supported */
     background-image: linear-gradient(180deg, #190a05, #870000);
 }
 
 .alt-bg2 {
-    background-color: #870000; /* Background colour if gradients aren't supported */
+    background-color: #870000;
+    /* Background colour if gradients aren't supported */
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     min-height: 100vh;
 }
@@ -236,7 +101,8 @@ h3 {
 
 #hero-banner.carousel {
     position: relative;
-    background-color: #870000; /* Background colour if gradients aren't supported */
+    background-color: #870000;
+    /* Background colour if gradients aren't supported */
     background-image: linear-gradient(180deg, #870000, #190a05);
 }
 
@@ -283,13 +149,15 @@ h3 {
 
 /* || 3D Technique Cards || */
 
-.card-space { /* Card Spacing */
+.card-space {
+    /* Card Spacing */
     display: flex;
     justify-content: space-evenly;
     transform-style: preserve-3d;
 }
 
-.card-space .tech-card { /* Card Size & Perspective */
+.card-space .tech-card {
+    /* Card Size & Perspective */
     position: relative;
     width: 500px;
     height: 500px;
@@ -299,7 +167,8 @@ h3 {
     cursor: pointer;
 }
 
-.card-space .tech-card .card-axis { /* Pulling the card out of flow */
+.card-space .tech-card .card-axis {
+    /* Pulling the card out of flow */
     position: absolute;
     top: 0;
     left: 0;
@@ -309,11 +178,13 @@ h3 {
     transition: 0.9s ease;
 }
 
-.card-space .tech-card:hover .card-axis { /* Card Rotation */
+.card-space .tech-card:hover .card-axis {
+    /* Card Rotation */
     transform: rotateY(180deg);
 }
 
-.card-space .tech-card .card-axis div img { /* Front image dimensions */
+.card-space .tech-card .card-axis div img {
+    /* Front image dimensions */
     position: absolute;
     top: 0;
     left: 0;
@@ -322,7 +193,8 @@ h3 {
     object-fit: cover;
 }
 
-.card-space .tech-card .card-axis .content { /* Content Positioning  */
+.card-space .tech-card .card-axis .content {
+    /* Content Positioning  */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,9 +210,11 @@ h3 {
     transform: rotateY(180deg);
 }
 
-.card-space .tech-card .card-axis .content div { /* Raising the text from the card back */
+.card-space .tech-card .card-axis .content div {
+    /* Raising the text from the card back */
     padding: 20px;
-    background-color:  rgb(60, 60, 60); /* Background colour if gradients aren't supported */
+    background-color: rgb(60, 60, 60);
+    /* Background colour if gradients aren't supported */
     background-image: linear-gradient(45deg, black, rgb(60, 60, 60));
     transform: translateZ(100px);
     overflow: auto;
@@ -436,59 +310,80 @@ a:hover {
 
 .cats {
     display: flex;
-    justify-content: space-evenly;
-    background: rgb(131, 58, 180); /* Background colour if gradients aren't supported */
+    align-items: center;
+    background: rgb(131, 58, 180);
+    /* Background colour if gradients aren't supported */
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    margin: auto;
 }
 
 /* || History || */
 
-.position{
+.position {
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
 }
 
-.position .txt-cont{
-    height: auto;
-    width: 60%;
+.position .txt-cont {
+    width: 90vw;
     background: #212529;
     padding: 20px;
     text-align: center;
 }
 
-.position .txt-cont .h3{
-   letter-spacing: 1px;
-  
+.position .txt-cont .h3 {
+    letter-spacing: 1px;
+
 }
 
-.position img{
-    position:absolute;
+.position .txt-cont p {
+    font-size: clamp(1rem, 6.2vw, 2rem);
+}
+
+.position img {
+    position: absolute;
     z-index: -1;
+    object-fit: cover;
     width: 100%;
-    max-height: 100vh;
+    min-height: 100vh;
 }
 
 @keyframes roll-in {
-    from { transform: translateY(-90%); opacity: 0; filter: blur(5px)};
+    from {
+        transform: translateY(-90%);
+        opacity: 0;
+        filter: blur(5px);
+    }
 }
 
 @keyframes translate {
-    from { transform: translateX(-100%); filter: blur(5px)};
+    from {
+        transform: translateX(-100%);
+        filter: blur(5px);
+    }
 }
 
 @keyframes fade-out {
-    from{opacity: 1;}
-    60%{filter:blur(2.5px)}
-    to{opacity: 0;filter: blur(0);}
+    from {
+        opacity: 1;
+    }
+
+    60% {
+        filter: blur(2.5px);
+    }
+
+    to {
+        opacity: 0;
+        filter: blur(0);
+    }
 }
 
 /* || Contact || */
 
-.social-cont {
-    padding-left: 25%;
-    padding-right: 25%;
+#contact .card{
+    max-width: 95vw;
 }
 
 /* || Confirmation || */
@@ -529,4 +424,249 @@ a:hover {
     text-align: center;
     margin: 30px;
     z-index: 1;
+}
+
+/* || Padding Media Queries || */
+
+@media (max-width: 576px) {
+    .section-padding {
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+    }
+}
+
+/* || Navigation Media Queries || */
+
+@media (min-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa-solid {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+        text-align: center;
+        flex-direction: column;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa-solid {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar.navbar-expand-sm .navbar-brand {
+        padding: 17px 0px 17px 0px;
+    }
+}
+
+/* || hero-banner Media Queries || */
+
+@media (max-width: 576px) {
+    #hero-banner.carousel .carousel-inner .carousel-item {
+        height: 27rem !important;
+    }
+}
+
+/* || Introduction Media Queries || */
+
+@media (max-width: 576px) {
+
+    .intro-cont {
+        padding: 0;
+    }
+
+    .intro-cont p {
+        font-size: 20px;
+    }
+
+    .intro-cont h2 {
+        font-size: 50px;
+    }
+
+    .intro-cont h3 {
+        font-size: 40px;
+    }
+
+    #intro-vd.ratio {
+        height: 90vw;
+        width: 95vw;
+    }
+}
+
+/* || Technique Cards Media Queries || */
+
+@media (max-width: 576px) {
+    .card-space {
+        /* Card Spacing */
+        flex-direction: column;
+        align-items: center;
+        transform-style: preserve-3d;
+    }
+
+    .card-space .tech-card {
+        /* Card Size & Perspective */
+        position: relative;
+        width: 95vw;
+        height: 500px;
+        margin: 20px;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+        cursor: pointer;
+    }
+
+}
+
+/* || Beginner's Guide Media Queries || */
+
+@media (max-width: 2340px) {
+    .vid2 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1560px) {
+    .vid1 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .vid0 {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+
+    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption h2{
+        font-size: 18px;
+    }
+    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 13px;
+    }
+
+    #info-deck.carousel {
+        height: 90%;
+        width: 400px;
+    }
+}
+
+@media (max-width:576px) {
+      #info-deck.carousel .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: 4rem;
+    }
+
+    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 2rem;
+    }
+}
+
+/* || Footer Media Queries|| */
+
+@media (max-width:576px) {
+    .footer-contact {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* || History Media Queries|| */
+
+@media (max-width:576px) {}
+
+@media (prefers-reduced-motion: no-preference) {
+
+    .translate {
+        animation: translate linear;
+        animation-timeline: view();
+        animation-range: entry;
+    }
+
+    .roll-in {
+        animation: roll-in linear forwards;
+        animation-timeline: view();
+        animation-range: entry;
+    }
+
+    .fade-out {
+        animation: fade-out linear;
+        animation-timeline: view();
+        animation-range: exit -300px;
+    }
+}
+
+/* || Confirmation Media Queries|| */
+
+@media (prefers-reduced-motion: no-preference) {
+
+    .confirm-cont {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        background-image: repeating-conic-gradient(from var(--a), white 0%, white 5%,
+                transparent 5%, transparent 40%, white 50%);
+        /* Loading bar colours */
+        animation: rotation 4s linear infinite;
+        border-radius: 20px;
+    }
+
+    .confirm-cont::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: repeating-conic-gradient(from var(--a), white 0%, white 5%,
+                transparent 5%, transparent 40%, white 50%);
+        /* Second loading bar colours */
+        animation: rotation 4s linear infinite;
+        animation-delay: 1s;
+        border-radius: 20px;
+    }
+
+    @property --a {
+        syntax: '<angle>';
+        inherits: false;
+        initial-value: 0deg;
+    }
+
+    @keyframes rotation {
+
+        /* Rotates the static backgorund */
+        0% {
+            --a: 0deg;
+        }
+
+        100% {
+            --a: 360deg;
+        }
+    }
 }
