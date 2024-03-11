@@ -1,17 +1,12 @@
-![little-origami-banner](documentation\lo-banner.png)
+![little-origami-banner](documentation/lo-banner.png)
 
  An introductory website aimed at informing the reader about the evolution and transition of Jiu-Jitsu throughout the world, and how anyone can start today!
 
- [![GitHub Last Commit](https://img.shields.io/github/last-commit/patrickaod/Little-Origami)](https://github.com/patrickaod/Little-Origami.git) ![License](https://img.shields.io/badge/License-MIT-blue)
-
-
-## Table of Contents
-
-
+ [![GitHub Last Commit](https://img.shields.io/github/last-commit/patrickaod/Little-Origami)](https://github.com/patrickaod/Little-Origami.git)
 
 ## Overview
 
-![Little Origami on different screen sizes](documentation\responsive-img.png)
+![Little Origami on different screen sizes](documentation/responsive-img.png)
 
 Little Orgiami is designed to be a seemless flow of information for the reader to enjoy, understand, and use. 
 
@@ -24,7 +19,7 @@ The index page contains demonstation videos, brief informative articles, and int
 <details>
 <summary>Index Page</summary>
 
-![Little Origami Index Page](documentation\overview\index-pg.jpeg)
+![Little Origami Index Page](documentation/overview/index-pg.jpeg)
 
 </details>
 
@@ -35,7 +30,7 @@ The history page utilises scroll animations to tell the story of Jui-Jitsu as it
 <details>
 <summary>History Page</summary>
 
-![Little Origami History Page](documentation\overview\history-pg.jpeg)
+![Little Origami History Page](documentation/overview/history-pg.jpeg)
 
 </details>
 
@@ -46,7 +41,7 @@ The contact page allows users to send a message through a bootstrap form, in ord
 <details>
 <summary>Contact Page</summary>
 
-![Little Origami Contact Page](documentation\overview\contact-pg.jpeg)
+![Little Origami Contact Page](documentation/overview/contact-pg.jpeg)
 
 </details>
 
@@ -63,7 +58,7 @@ It was design to incentavise free bug reporting and was seen as a great opportun
 <details>
 <summary>404 Page</summary>
 
-![Little Origmai 404 Page](documentation\overview\404-pg.jpeg)
+![Little Origmai 404 Page](documentation/overview/404-pg.jpeg)
 
 </details>
 
@@ -74,7 +69,7 @@ The confimation page adds depth to form submission experience. Thanking the user
 <details>
 <summary> Confirmation Page </summary>
 
-![Little Origami Confirmation Page](documentation\overview\confimation-pg.jpeg)
+![Little Origami Confirmation Page](documentation/overview/confimation-pg.jpeg)
 
 </details>
 
@@ -90,7 +85,7 @@ A trend among martial arts website is to use red, black, and yellow on a white b
 
 For this project, I chose to mostly follow this trend. As the most commonly used colours were black, yellow, and red. The colour palette looks as follows: 
 
-![Little Origami Colour Palette](documentation\colours\colour-scheme.png)
+![Little Origami Colour Palette](documentation/colours/colour-scheme.png)
 
 #### Color Application 
 
@@ -118,7 +113,7 @@ The colours I used in a 45&deg; gradient are as follows:
 - #FD1D1D - Red 
 - #FCB045 - Orange (web)
 
-![Alternative Background Colours](documentation\colours\alt-colours-chm.png)
+![Alternative Background Colours](documentation/colours/alt-colours-chm.png)
 
 ### Typography
 
@@ -175,13 +170,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 <summary> Click here to see the Mobile Wireframes </summary>
 
 Home
-  - ![Index mobile wireframe](documentation\wireframe\mobile-index.png)
+  - ![Index mobile wireframe](documentation/wireframe/mobile-index.png)
 
 History
-  - ![History mobile wireframe](documentation\wireframe\mobile-history.png)
+  - ![History mobile wireframe](documentation/wireframe/mobile-history.png)
 
 Contact
-  - ![Contact mobile wireframe](documentation\wireframe\mobile-contact.png)
+  - ![Contact mobile wireframe](documentation/wireframe/mobile-contact.png)
 
 </details>
 
@@ -191,13 +186,13 @@ Contact
 <summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![Index tablet wireframe](documentation\index-wireframe-tablet.png)
+  - ![Index tablet wireframe](documentation/index-wireframe-tablet.png)
 
 History
-  - ![History tablet wireframe](documentation\wireframe\tablet-history.png)
+  - ![History tablet wireframe](documentation/wireframe/tablet-history.png)
 
 Contact
-  - ![Contact tablet wireframe](documentation\wireframe\tablet-contact.png)
+  - ![Contact tablet wireframe](documentation/wireframe/tablet-contact.png)
 
 </details>
 
@@ -207,13 +202,13 @@ Contact
 <summary> Click here to see the Desktop Wireframes </summary>
 
 Home
-  - ![Index desktop wireframe](documentation\wireframe\desktop-index.png)
+  - ![Index desktop wireframe](documentation/wireframe/desktop-index.png)
 
 History
-  - ![History desktop wireframe](documentation\wireframe\desktop-history.png)
+  - ![History desktop wireframe](documentation/wireframe/desktop-history.png)
 
 Contact
-  - ![Contact desktop wireframe](documentation\wireframe\desktop-contact.png)
+  - ![Contact desktop wireframe](documentation/wireframe/desktop-contact.png)
 
 </details>
 
@@ -227,19 +222,19 @@ Contact
 
     - An easy to use navigation menu, that gives user-friendly access to all the available content on the site. This benifits the users by respecting their time. Overall positively adding to their user experience.
 
-![Little Origami Navigation Menu](documentation\lo-nav-menu.png)
+![Little Origami Navigation Menu](documentation/lo-nav-menu.png)
 
 - **Bootstrap 5 Carosuel - Hero Banner**
 
     - A striking introductory slideshow aimed at showcasing interesting aspects of Jui-Jitsu in picture form. The focal point can then be used to draw users attention to something more specific in the future. This benefit the user by giving them a sense of what the website is about. 
 
-![A introductory slideshow](documentation\hero-banner.png)
+![A introductory slideshow](documentation/hero-banner.png)
 
 - **Introduction**
 
     - The introductory section aims to inform the reader about what the websites intent is and where to go next. The benefit to the user is the speed at which they deseren their next discission.
 
-![Home page introduction](documentation\introduction.png)
+![Home page introduction](documentation/introduction.png)
 
 - **{{ YOUR-TITLE-FOR-FEATURE-#3 }}**
 
@@ -381,27 +376,3 @@ You can fork this repository by using the following steps:
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-
-## License 
-
-MIT License
-
-Copyright (c) 2024 Patrick O'Doherty
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

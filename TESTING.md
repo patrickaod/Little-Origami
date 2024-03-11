@@ -10,11 +10,11 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-|  | 404.html | ![Successful Validation of 404](documentation\testing\html-validator\success-404.jpeg) | |
-|  | confirmation.html | ![Successful Validation of confirmation](documentation\testing\html-validator\success-confirmation.jpeg) | |
-|  | contact.html | ![Successful Validation of contact](documentation\testing\html-validator\success-contact.jpeg) | |
-|  | history.html | ![Successful Validation of history](documentation\testing\html-validator\sucess-history.jpeg) | |
-|  | index.html | ![Successful Validation of index](documentation\testing\html-validator\sucess-index.jpeg) | |
+|  | 404.html | ![Successful Validation of 404](documentation/testing/html-validator/success-404.jpeg) | |
+|  | confirmation.html | ![Successful Validation of confirmation](documentation/testing/html-validator/success-confirmation.jpeg) | |
+|  | contact.html | ![Successful Validation of contact](documentation/testing/html-validator/success-contact.jpeg) | |
+|  | history.html | ![Successful Validation of history](documentation/testing/html-validator/sucess-history.jpeg) | |
+|  | index.html | ![Successful Validation of index](documentation/testing/html-validator/sucess-index.jpeg) | |
 
 ### CSS
 
@@ -30,9 +30,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Home | History | Contact | 404 | Confirmation | Notes
 | --- | --- | --- | --- | --- | --- | --- |
-| Chrome | ![Chrome home page](documentation\testing\browser-compat\chrome-hmpg.png) | ![Chrome history](documentation\testing\browser-compat\chrome-history.png) | ![Chrome contact](documentation\testing\browser-compat\chrome-contact.png) | ![Chrome 404 page](documentation\testing\browser-compat\chrome-404.png) | ![Chrome Confirmation page](documentation\testing\browser-compat\chrome-confirm.png) | Works as expected |
-| Firefox | ![Firefox home page](documentation\testing\browser-compat\firefox-hmpg.png) | ![Firefox history](documentation\testing\browser-compat\firefox-history.png) | ![Firefox contact](documentation\testing\browser-compat\firefox-contact.png) | ![Firefox 404 page](documentation\testing\browser-compat\firefox-404.png) | ![Firefox Confirmation page](documentation\testing\browser-compat\firefox-confirmation.png) | Works as expected |
-| Edge | ![Edge home page](documentation\testing\browser-compat\edge-hmpg.png) | ![Edge history](documentation\testing\browser-compat\edge-history.png) | ![Edge contact](documentation\testing\browser-compat\edge-contact.png) | ![Edge 404 page](documentation\testing\browser-compat\edge-404.png) | ![Edge Confirmation page](documentation\testing\browser-compat\edge-confirmation.png) | Works as expected |
+| Chrome | ![Chrome home page](documentation/testing/browser-compat/chrome-hmpg.png) | ![Chrome history](documentation/testing/browser-compat/chrome-history.png) | ![Chrome contact](documentation/testing/browser-compat/chrome-contact.png) | ![Chrome 404 page](documentation/testing/browser-compat/chrome-404.png) | ![Chrome Confirmation page](documentation/testing/browser-compat/chrome-confirm.png) | Works as expected |
+| Firefox | ![Firefox home page](documentation/testing/browser-compat/firefox-hmpg.png) | ![Firefox history](documentation/testing/browser-compat/firefox-history.png) | ![Firefox contact](documentation/testing/browser-compat/firefox-contact.png) | ![Firefox 404 page](documentation/testing/browser-compat/firefox-404.png) | ![Firefox Confirmation page](documentation/testing/browser-compat/firefox-confirmation.png) | Works as expected |
+| Edge | ![Edge home page](documentation/testing/browser-compat/edge-hmpg.png) | ![Edge history](documentation/testing/browser-compat/edge-history.png) | ![Edge contact](documentation/testing/browser-compat/edge-contact.png) | ![Edge 404 page](documentation/testing/browser-compat/edge-404.png) | ![Edge Confirmation page](documentation/testing/browser-compat/edge-confirmation.png) | Works as expected |
 
 ## Responsiveness
 
@@ -54,11 +54,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation\testing\lighthouse\mstats-hmpg.png) | ![screenshot](documentation\testing\lighthouse\dstats-hmpg.png) | ? |
-| History | ![screenshot](documentation\testing\lighthouse\mstats-history.png) | ![screenshot](documentation\testing\lighthouse\dstats-history.png) | ? |
-| 404 | ![screenshot](documentation\testing\lighthouse\mstats-404.png) | ![screenshot](documentation\testing\lighthouse\dstats-404.png) | ? |
-| Confirmation | ![screenshot](documentation\testing\lighthouse\mstats-confirmation.png) | ![screenshot](documentation\testing\lighthouse\dstats-confirmation.png) | ? |
-| Contact | ![screenshot](documentation\testing\lighthouse\mstats-contact.png) | ![screenshot](documentation\testing\lighthouse\dstats-contact.png) | ? |
+| Home | ![screenshot](documentation/testing/lighthouse/mstats-hmpg.png) | ![screenshot](documentation/testing/lighthouse/dstats-hmpg.png) | ? |
+| History | ![screenshot](documentation/testing/lighthouse/mstats-history.png) | ![screenshot](documentation/testing/lighthouse/dstats-history.png) | ? |
+| 404 | ![screenshot](documentation/testing/lighthouse/mstats-404.png) | ![screenshot](documentation/testing/lighthouse/dstats-404.png) | ? |
+| Confirmation | ![screenshot](documentation/testing/lighthouse/mstats-confirmation.png) | ![screenshot](documentation/testing/lighthouse/dstats-confirmation.png) | ? |
+| Contact | ![screenshot](documentation/testing/lighthouse/mstats-contact.png) | ![screenshot](documentation/testing/lighthouse/dstats-contact.png) | ? |
 
 ## User Story Testing 
 
