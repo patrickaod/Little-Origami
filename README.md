@@ -13,24 +13,42 @@
 
 ![Little Origami on different screen sizes](documentation\responsive-img.png)
 
-Little Orgiami is designed to be a seemless flow of information for the reader to understand, use, and enjoy. 
+Little Orgiami is designed to be a seemless flow of information for the reader to enjoy, understand, and use. 
 
 This is accomplished through three static HTML/CSS pages: 
 
 ### The First Page
-The home page contains a brief overview, informational videos, and a beginner's guide. The idea was to give the impression an intrested party was in the right place and to give them the confidence to find out more. 
 
-![Little Origami Home Page](documentation\lo-home-pg.jpeg)
+The index page contains demonstation videos, brief informative articles, and interactive elements that aim to inspire confidence in the user.
+
+<details>
+<summary>Index Page</summary>
+
+![Little Origami Index Page](documentation\overview\index-pg.jpeg)
+
+</details>
 
 ### The Second Page
-The history page is an animated journey of jui-jitsu from Japan to Brazil before eventually being adopted by the greater world. The animations were added for depth and entertainment, however to maintain accessabilty media queries were used to reduce the scope of applicaiton. The idea was to add a follow up to homepage to get users more involved and excited in Jiu-Jitsu. Increasing the chances of triggering action within them. 
 
-![Little Origami History Page](documentation\lo-history-pg.jpeg)
+The history page utilises scroll animations to tell the story of Jui-Jitsu as it travelled from Japan through brazil to the rest of the world. 
+ 
+<details>
+<summary>History Page</summary>
+
+![Little Origami History Page](documentation\overview\history-pg.jpeg)
+
+</details>
 
 ### The Final Page
-The contact page allows users to send their information and a message to a server in order to foster a community around a Jui-jitsu through Little Origami. This form of this section was updated to remove the javascipt for submission to the Code Institute. The intended code can be found in the *bugs* section. 
 
-![Little Origami Contact Page](documentation\lo-contact-pg.jpeg)
+The contact page allows users to send a message through a bootstrap form, in order to foster a community around Little Origami.
+
+<details>
+<summary>Contact Page</summary>
+
+![Little Origami Contact Page](documentation\overview\contact-pg.jpeg)
+
+</details>
 
 ### Additional Pages 
 
@@ -38,60 +56,81 @@ Two additional pages were added to increse the depth and flexability.
 
 #### 404 Page
 
-The 404 page enabled the early deployment and review of the site. As content was updated so to was the page. It was design to incentavise free bug reporting and was seen as a great opportunity for user relations. 
+The 404 page enabled the early deployment and review of the site. As content was updated so to were the 404 page appointed links. 
 
-![Little Origmai 404 Page](documentation\lo-404-pg.jpeg)
+It was design to incentavise free bug reporting and was seen as a great opportunity for user relations. 
+
+<details>
+<summary>404 Page</summary>
+
+![Little Origmai 404 Page](documentation\overview\404-pg.jpeg)
+
+</details>
 
 #### Confirmation Page
 
-The confimation page adds depth to form submission experience. Thanking the user for their input before returning them to Home Page; completing their journey around the site. 
+The confimation page adds depth to form submission experience. Thanking the user for their input before returning them to Home Page completing their journey.
 
-An animation rotates behind the message to give the impression of a loading screen, however this is a faccade and the page refreshes to home page on a timer. 
+<details>
+<summary> Confirmation Page </summary>
 
-![Little Origami Confirmation Page](documentation\lo-confimation-pg.jpeg)
+![Little Origami Confirmation Page](documentation\overview\confimation-pg.jpeg)
+
+</details>
 
 ## UX
 
-The overall design of the website was to be striking but elegent. Reflective of the current trends within the martial arts online space. 
+The overall design of Little Origami was to be a balance between striking and elegent. Reflective of the current trends within the martial arts space. 
 
-Libral use of contrasting colours, with bold images caputes the striking element. While, the fonts and flow of the overall information tries to provide an elegence to the information.  
+Libral use of contrasting colours, with bold images caputes the striking element. While, the fonts and the flow of the overall information seek to provide an aesthetic of elegence or refinement.
 
 ### Colour Scheme 
 
-A trend among martial arts website is to use red, black, and yellow on a white background. This is a nod to the white gui adorned by the different colour belts. Grey and darker shades are generally thrown in to contast these colours. The effect is an overall refined but striking website; perfect for martial arts. 
+A trend among martial arts website is to use red, black, and yellow on a white background. This is a nod to the white gui adorned by the different coloured belts. Grey and darker shades are generally thrown in to contast these colours. The effect is an overall refined but striking website; perfect for martial arts. 
 
-For this project, I chose to mostly follow this trend. As the most commonly used colours where black, yellow, and red. The colour palette looks as follows: 
+For this project, I chose to mostly follow this trend. As the most commonly used colours were black, yellow, and red. The colour palette looks as follows: 
 
-![Little Origami Colour Palette](documentation\lo-colour-scheme.png)
+![Little Origami Colour Palette](documentation\colours\colour-scheme.png)
 
-### Color Choice 
+#### Color Application 
 
-I opted to use #212529 - Eerie Black as the background because it tied the websites logo, content, and design better than a lighter alternative. 
+I opted to use #212529 - Eerie Black as the background. It tied the website's logo, content, and design better than a lighter alternative. The logo and branding are the focal point for this decision as it is better highlighted by the darkness. 
 
-The #FFFF00 - Yellow, FF0000 - Red, & #870000 Dark red were all chose to make the website as stiking as possible. This can be seen most clearly with the logo. Blend from light to dark red, with an accompaning bright yellow brand name. I feel this accomplishes the goal of being a stiking first impression. 
+The #FFFF00 - Yellow, FF0000 - Red, & #870000 - Dark red were all chosen to make the website as stiking as possible, and were used as follows:
 
-As for the document the heading were used liket this ?:
-- #FFFF00 was use for the all the primary links and headings. 
+- #FFFF00 - Yellow was use for the all the primary links and headings. 
 
-- #FF0000  was used for subheadings. 
+- #FF0000 - Red was used for all subheadings. 
 
-- #870000 was used as a background colour. 
+- #870000 - Dark Red was used in combination with black as a gradient background colour. 
 
 - #FFFFFF was used for the primary text as to keep good contrast. 
 
 - #000000 was used in certain instances when the background was of a lighter colour. 
 
+#### Additional Colours 
+
+For the two additional pages, I chose an alternative background to add some personallity into the project. As way of leaving my mark (a trademark) on the project. 
+
+The colours I used in a 45&deg; gradient are as follows:
+
+- #833AB4 - Grape 
+- #FD1D1D - Red 
+- #FCB045 - Orange (web)
+
+![Alternative Background Colours](documentation\colours\alt-colours-chm.png)
+
 ### Typography
 
-The aim of the type and icons is to create a fluid reading experience in a eastern style. 
+The aim of the type and icons is to create a fluid reading experience, but displayed in an eastern style. 
 
-The eastern style gives an impression of elegency and refinement, but also adds ligitmacy to any martial art. As it showcases the history of it's effectiveness through the ages. Therefore, this is a very important consideration of website, and is achieved through the following fonts & icons:
+The eastern style gives an impression of elegency and refinement, but also adds legitimacy. Legitimacy that can be traced back through history. Therefore, this is a very important consideration for the website, and is achieved through the following fonts & icons:
  
 - [Protest Revolution](https://fonts.google.com/specimen/Protest+Revolution?query=protest+revolution) was used for the logo brand and primary headings.
 
 - [Protest Strike](https://fonts.google.com/specimen/Protest+Strike?query=protest+strike) was used for the subheadings. 
 
-- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all the plain text.
+- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all the non-heading text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the navigation icons in the header.
 
@@ -121,9 +160,9 @@ The Font Awesome icons were a great addition to the website adding an extra laye
 
 - As a returning site user, I would like to help contribute to the community, so that I can feel connected.
 
-- As a returning site user, I would like to keep find new features and conent, so that I can engage more.
+- As a returning site user, I would like to keep finding new features and content, so that I can become more engaged.
 
-- As a returning site user, I would like to always see what I'm expecting, so that I can keep enjoying the content I've come to love.
+- As a returning site user, I would like to reliably see what I'm expecting, so that I can keep enjoying the content I've come to love.
 
 ## Wireframes
 
@@ -136,13 +175,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 <summary> Click here to see the Mobile Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+  - ![Index mobile wireframe](documentation\wireframe\mobile-index.png)
 
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
+History
+  - ![History mobile wireframe](documentation\wireframe\mobile-history.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
+  - ![Contact mobile wireframe](documentation\wireframe\mobile-contact.png)
 
 </details>
 
@@ -152,13 +191,13 @@ Contact
 <summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+  - ![Index tablet wireframe](documentation\index-wireframe-tablet.png)
 
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
+History
+  - ![History tablet wireframe](documentation\wireframe\tablet-history.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
+  - ![Contact tablet wireframe](documentation\wireframe\tablet-contact.png)
 
 </details>
 
@@ -168,17 +207,19 @@ Contact
 <summary> Click here to see the Desktop Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+  - ![Index desktop wireframe](documentation\wireframe\desktop-index.png)
 
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
+History
+  - ![History desktop wireframe](documentation\wireframe\desktop-history.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
+  - ![Contact desktop wireframe](documentation\wireframe\desktop-contact.png)
 
 </details>
 
 ## Features
+
+
 
 ### Existing Features
 
@@ -299,9 +340,47 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployement 
 
+ The local deployment of a website exists on a developer's computer during the development phase, where changes and testing occur. The live deployment of a website refers to the process of making the finalized and tested website live on a web server for public access. The local environment is a controlled and private space for development, while the deployment is the public-facing version of the website.
+
 ## Credits 
 
 ### Content
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/) | entire site | responsive HTML/CSS/JS navbar |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/components/carousel/) | home page | carousel |
+| [BBbootstrap](https://bbbootstrap.com/snippets/bootstrap-5-flipping-cards-for-catalog-29291738) | home page | Bootstrap 5 Flipping cards for catalog |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/components/buttons/) | entire site | Buttons |
+| [mdn web docs_](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) | home page | The Video Embed element tutorial |
+| [mdn web docs_](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) | history page | scroll animation tutorial |
+| [YouTube](https://www.youtube.com/watch?v=UmzFk68Bwdk&t=29s&ab_channel=KevinPowell) | history page | scroll animation demo |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/) | contact page | contact form |
+| [YouTube](https://www.youtube.com/watch?v=BjeoJu6agQk&ab_channel=FlorinPop) | confirmation page | rotating border |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/utilities/flex/) | entire site | flex utility |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) | history page | grid layout |
+
+### Media
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Pexels](https://www.pexels.com) | home page | image | hero images |
+| [Pexels](https://www.pexels.com) | home page | images | carousel backgorund |
+| [Pexels](https://www.pexels.com) | home page | video | demonstration videos |
+| [Pexels](https://www.pexels.com) | history page | images | backgrounds |
+| [Youtube](https://www.pexels.com) | home page | video | introduction video |
+| [Giphy](https://giphy.com) | 404 Page | GIFs | 404 Cats|
+| [FontAwesome](https://fontawesome.com/) | entire site | images | navigation icons |
+| [Shields.io](https://shields.io/) | README | images | shields |
+| [BannerMaker](https://banner.godori.dev/) | README | images | banner |
+
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
 
 ## License 
 
