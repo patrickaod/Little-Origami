@@ -13,5 +13,5 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 |  | 404.html | ![Successful Validation of 404](documentation/validation/path-to-screenshot.png) | |
 |  | confirmation.html | ![Successful Validation of confirmation](documentation/validation/path-to-screenshot.png) | |
 |  | contact.html | ![Successful Validation of contact](documentation/validation/path-to-screenshot.png) | |
-|  | history.html | ![Successful Validation of history](documentation/validation/path-to-screenshot.png) | |
-|  | index.html | ![Successful Validation of index](documentation\testing\html-validator) | |
+|  | history.html | ![Successful Validation of history](documentation\testing\html-validator\sucess-history.jpeg) | |
+|  | index.html | ![Successful Validation of index](documentation\testing\html-validator\sucess-index.jpeg) | |
