@@ -42,6 +42,14 @@ h3 {
     font-size: clamp(1.5rem, 12vw, 3.5rem);
 }
 
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: #870000;
+}
+
 /* || Container || */
 
 .container-xxl {
@@ -131,14 +139,6 @@ h3 {
     text-align: center;
     margin: auto;
     padding: 30px;
-}
-
-.intro-cont a {
-    color: yellow;
-}
-
-.intro-cont a:hover {
-    color: #870000;
 }
 
 #intro-vd.ratio {
@@ -288,14 +288,6 @@ li {
 
 a>.fa-brands {
     font-size: 200%;
-}
-
-a {
-    color: yellow;
-}
-
-a:hover {
-    color: #870000;
 }
 
 .footer-contact {
