@@ -18,7 +18,7 @@ body {
 p {
     font-family: Roboto, var(--bs-body-font-family), sans-serif;
     color: white;
-    font-size: clamp(1rem, 6vw, 2rem);
+    font-size: clamp(1rem, 6vw, 2.5rem);
 }
 
 h1 {
@@ -31,7 +31,7 @@ h2 {
     color: yellow;
     display: flex;
     justify-content: center;
-    font-size: calc(1.375rem + 1.5vw);
+    font-size: clamp(1.5rem, 12vw, 5rem);
 }
 
 h3 {
@@ -39,7 +39,7 @@ h3 {
     color: red;
     display: flex;
     justify-content: center;
-    font-size: calc(1.325rem + .9vw)
+    font-size: clamp(1.5rem, 12vw, 3.5rem);
 }
 
 /* || Container || */
@@ -59,7 +59,7 @@ h3 {
     padding-bottom: 5vh;
 }
 
-/* || Backgrounds || */
+/* || Background || */
 
 .alt-bg {
     background-color: #870000;
@@ -128,7 +128,8 @@ h3 {
 
 .intro-cont {
     text-align: center;
-    padding-left: 30px;
+    margin: auto;
+    padding: 30px;
 }
 
 .intro-cont a {
@@ -489,27 +490,11 @@ a:hover {
 
 /* || Introduction Media Queries || */
 
-@media (max-width: 576px) {
-
-    .intro-cont {
-        padding: 0;
-    }
-
-    .intro-cont p {
-        font-size: 20px;
-    }
-
-    .intro-cont h2 {
-        font-size: 50px;
-    }
-
-    .intro-cont h3 {
-        font-size: 40px;
-    }
+@media (max-width: 1200px) {
 
     #intro-vd.ratio {
-        height: 90vw;
-        width: 95vw;
+        height: clamp(300px,90vw,500px);
+        width: clamp(300px,95vw,950px);
     }
 }
 
