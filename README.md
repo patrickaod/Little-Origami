@@ -16,34 +16,21 @@ This is accomplished through three static HTML/CSS pages:
 
 The index page contains demonstation videos, brief informative articles, and interactive elements that aim to inspire confidence in the user.
 
-<details>
-<summary>Index Page</summary>
-
 ![Little Origami Index Page](documentation/overview/index-pg.jpeg)
 
-</details>
 
 ### The Second Page
 
 The history page utilises scroll animations to tell the story of Jui-Jitsu as it travelled from Japan through brazil to the rest of the world. 
- 
-<details>
-<summary>History Page</summary>
 
 ![Little Origami History Page](documentation/overview/history-pg.jpeg)
-
-</details>
 
 ### The Final Page
 
 The contact page allows users to send a message through a bootstrap form, in order to foster a community around Little Origami.
 
-<details>
-<summary>Contact Page</summary>
-
 ![Little Origami Contact Page](documentation/overview/contact-pg.jpeg)
 
-</details>
 
 ### Additional Pages 
 
@@ -55,23 +42,16 @@ The 404 page enabled the early deployment and review of the site. As content was
 
 It was design to incentavise free bug reporting and was seen as a great opportunity for user relations. 
 
-<details>
-<summary>404 Page</summary>
-
 ![Little Origmai 404 Page](documentation/overview/404-pg.jpeg)
 
-</details>
 
 #### Confirmation Page
 
 The confimation page adds depth to form submission experience. Thanking the user for their input before returning them to Home Page completing their journey.
 
-<details>
-<summary> Confirmation Page </summary>
 
 ![Little Origami Confirmation Page](documentation/overview/confimation-pg.jpeg)
 
-</details>
 
 ## UX
 
