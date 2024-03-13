@@ -59,7 +59,7 @@
                 <!-- Contact Form Header -->
                 <div class="card-header"> Contact Form </div>
                 <!-- Contact Form Body -->
-                <form class="card-body" id="contact-form" method="post" onsubmit="submitForm(); return false;">
+                <form class="card-body" id="contact-form" action="confirmation.html">
                     <!-- First Name & Last Name -->
                     <div class="row mb-3">
                         <div class="col">
@@ -113,21 +113,6 @@
             <!-- </div> -->
         </div>
     </footer>
-    <script>
-        // Redirection Script
-        function submitForm() {
-            // Get form data
-            var formData = new FormData(document.getElementById("contact-form"));
-
-            // Send form data to one URL using XMLHttpRequest
-            var xhr = new XMLHttpRequest();
-            xhr.open("POST", "https://formdump.codeinstitute.net/", true);
-            xhr.send(formData);
-
-            // Redirect the user to another URL
-            window.location.href = "confirmation.html";
-        }
-    </script>
 </body>
 
 </html>
