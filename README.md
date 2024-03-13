@@ -166,7 +166,7 @@ Contact
 <summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![Index tablet wireframe](documentation/index-wireframe-tablet.png)
+  - ![Index tablet wireframe](documentation/wireframe/tablet-index.png)
 
 History
   - ![History tablet wireframe](documentation/wireframe/tablet-history.png)
