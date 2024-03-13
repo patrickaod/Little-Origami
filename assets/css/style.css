@@ -161,8 +161,8 @@ h3 {
 .card-space .tech-card {
     /* Card Size & Perspective */
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: clamp(500px, 30vw, 800px);
+    height: clamp(500px, 30vw, 800px);
     margin: 20px;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -228,7 +228,7 @@ h3 {
 }
 
 .card-space .tech-card .card-axis .content p {
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 /* || Beginner's Guide || */
@@ -493,7 +493,7 @@ a:hover {
 
 /* || Technique Cards Media Queries || */
 
-@media (max-width: 576px) {
+@media (max-width: 1200px) {
     .card-space {
         /* Card Spacing */
         flex-direction: column;
@@ -501,16 +501,11 @@ a:hover {
         transform-style: preserve-3d;
     }
 
-    .card-space .tech-card {
+     .card-space .tech-card {
         /* Card Size & Perspective */
-        position: relative;
-        width: 95vw;
-        height: 500px;
-        margin: 20px;
-        transform-style: preserve-3d;
-        perspective: 1000px;
-        cursor: pointer;
-    }
+        width: clamp(300px, 95vw , 500px);
+        height: clamp(300px, 95vw , 500px);
+    } 
 
 }
 
