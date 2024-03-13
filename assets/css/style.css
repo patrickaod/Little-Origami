@@ -123,7 +123,7 @@ a:hover {
 }
 
 #hero-banner.carousel .carousel-inner .carousel-item {
-    height: clamp(30rem, 60vw, 45rem);
+    height: clamp(28rem, 70vw, 38rem);
    
 }
 
