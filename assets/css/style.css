@@ -254,10 +254,15 @@ a:hover {
     bottom: auto;
 }
 
-#info-deck.carousel .carousel-inner .carousel-item .carousel-caption h2,
+#info-deck.carousel .carousel-inner .carousel-item .carousel-caption h2{
+    color: black;
+    font-size: clamp(1rem, 3vw ,4rem)
+}
+
+
 #info-deck.carousel .carousel-inner .carousel-item .carousel-caption p {
     color: black;
-
+    font-size: clamp(0.8rem, 1.5vw ,1.9rem)
 }
 
 .carousel-control-next-icon,
@@ -517,41 +522,19 @@ a>.fa-brands {
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
+    
     .vid0 {
         display: none;
-    }
-}
-
-@media (max-width: 992px) {
-
-    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption h2{
-        font-size: 18px;
-    }
-    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption p {
-        font-size: 13px;
     }
 
     #info-deck.carousel {
         height: 90%;
         width: 400px;
     }
-}
 
-@media (max-width:576px) {
-      #info-deck.carousel .carousel-indicators [data-bs-target] {
+    #info-deck.carousel .carousel-indicators [data-bs-target] {
         display: none;
-    }
-}
-
-@media (min-width: 2000px) {
-
-    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 4rem;
-    }
-
-    #info-deck.carousel .carousel-inner .carousel-item .carousel-caption p {
-        font-size: 2rem;
     }
 }
 
