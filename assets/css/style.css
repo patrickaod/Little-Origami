@@ -115,7 +115,8 @@ h3 {
 }
 
 #hero-banner.carousel .carousel-inner .carousel-item {
-    height: 35rem;
+    height: clamp(30rem, 60vw, 45rem);
+   
 }
 
 .carousel .carousel-indicators [data-bs-target] {
@@ -477,14 +478,6 @@ a:hover {
 
     .navbar.navbar-expand-sm .navbar-brand {
         padding: 17px 0px 17px 0px;
-    }
-}
-
-/* || hero-banner Media Queries || */
-
-@media (max-width: 576px) {
-    #hero-banner.carousel .carousel-inner .carousel-item {
-        height: 27rem !important;
     }
 }
 
