@@ -362,16 +362,19 @@ You can fork this repository by using the following steps:
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/) | entire site | responsive HTML/CSS/JS navbar |
-| [Bootstrap](https://getbootstrap.com/docs/5.0/components/carousel/) | home page | carousel |
-| [BBbootstrap](https://bbbootstrap.com/snippets/bootstrap-5-flipping-cards-for-catalog-29291738) | home page | Bootstrap 5 Flipping cards for catalog |
-| [Bootstrap](https://getbootstrap.com/docs/5.0/components/buttons/) | entire site | Buttons |
+| [Bootsnipp](https://bootsnipp.com/snippets/nNX3a) | entire site | Bootstrap 4 Navbar with Icon Top |
 | [mdn web docs_](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) | home page | The Video Embed element tutorial |
+| [BBbootstrap](https://bbbootstrap.com/snippets/bootstrap-5-flipping-cards-for-catalog-29291738) | home page | Bootstrap 5 Flipping cards for catalog |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/components/carousel/) | home page | carousel |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/components/buttons/) | entire site | Buttons |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) | history page | grid layout |
 | [mdn web docs_](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) | history page | scroll animation tutorial |
 | [YouTube](https://www.youtube.com/watch?v=UmzFk68Bwdk&t=29s&ab_channel=KevinPowell) | history page | scroll animation demo |
 | [Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/) | contact page | contact form |
 | [YouTube](https://www.youtube.com/watch?v=BjeoJu6agQk&ab_channel=FlorinPop) | confirmation page | rotating border |
 | [Bootstrap](https://getbootstrap.com/docs/5.0/utilities/flex/) | entire site | flex utility |
-| [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) | history page | grid layout |
+| [mdn web docs_](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp) | entire site | clamp() |
+| [CSS Gradient](https://cssgradient.io/) | entire site | linear gradient generator |
 
 ### Media
 
@@ -405,7 +408,7 @@ You can fork this repository by using the following steps:
 
 #### Missing Links
 
-Some of media links direct to the main site of where the website were found. This is due to not having all of them being saved for whatever reason, and all attempts to find them again failed. Moving forward, I'll make it a priority to save all media whether it is used or not. 
+Some of the media links direct to the main site of where the website were found. This is due to not having all of them being saved for whatever reason, and all attempts to find them again failed. Moving forward, I'll make it a priority to save all media whether it is used or not. 
 
 ### Acknowledgements
 

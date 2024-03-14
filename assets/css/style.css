@@ -85,11 +85,11 @@ a:hover {
 /* || Header - Navigation || */
 
 .navbar-icon-top .navbar-nav .nav-link>.fa-solid {
+    /* Tutorial by tam710562: https://bootsnipp.com/snippets/nNX3a */
     position: relative;
     width: 36px;
     font-size: 24px;
     top: 3px;
-    line-height: 12px;
 }
 
 .navbar-icon-top .navbar-nav .nav-link {
@@ -150,6 +150,7 @@ a:hover {
 }
 
 /* || 3D Technique Cards || */
+/* Tutorial by Anand Vunnam : https://bbbootstrap.com/snippets/bootstrap-5-flipping-cards-for-catalog-29291738 */
 
 .card-space {
     /* Card Spacing */
@@ -317,6 +318,7 @@ a>.fa-brands {
 }
 
 /* || History || */
+/* Tutorial by Kevin Powell: https://www.youtube.com/watch?v=UmzFk68Bwdk&t=29s&ab_channel=KevinPowell */
 
 .position {
     display: grid;
@@ -386,6 +388,7 @@ a>.fa-brands {
 }
 
 /* || Confirmation || */
+/* Tutorial by Florin Pop: https://www.youtube.com/watch?v=BjeoJu6agQk&ab_channel=FlorinPop */
 
 .confirm-css {
     display: grid;
@@ -435,6 +438,7 @@ a>.fa-brands {
 }
 
 /* || Navigation Media Queries || */
+/* Tutorial by tam710562: https://bootsnipp.com/snippets/nNX3a */
 
 @media (min-width: 576px) {
     .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
@@ -451,7 +455,6 @@ a>.fa-brands {
         width: 48px;
         margin: 2px auto 4px auto;
         top: 0;
-        line-height: 24px;
     }
 }
 
@@ -470,7 +473,6 @@ a>.fa-brands {
         width: 48px;
         margin: 2px auto 4px auto;
         top: 0;
-        line-height: 24px;
     }
 
     .navbar.navbar-expand-sm .navbar-brand {
@@ -548,8 +550,7 @@ a>.fa-brands {
 }
 
 /* || History Media Queries|| */
-
-@media (max-width:576px) {}
+/* Tutorial by Kevin Powell: https://www.youtube.com/watch?v=UmzFk68Bwdk&t=29s&ab_channel=KevinPowell */
 
 @media (prefers-reduced-motion: no-preference) {
 
@@ -573,6 +574,7 @@ a>.fa-brands {
 }
 
 /* || Confirmation Media Queries|| */
+/* Tutorial by Florin Pop: https://www.youtube.com/watch?v=BjeoJu6agQk&ab_channel=FlorinPop */
 
 @media (prefers-reduced-motion: no-preference) {
 
