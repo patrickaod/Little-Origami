@@ -192,8 +192,6 @@ Contact
 
 ## Features
 
-
-
 ### Existing Features
 
 - **Bootstrap 5 - Navigation bar**
@@ -404,6 +402,10 @@ You can fork this repository by using the following steps:
 | [FontAwesome](https://fontawesome.com/icons/x-twitter?f=brands&s=solid) | entire site | images | social media icons |
 | [Shields.io](https://shields.io/) | README | images | shields |
 | [BannerMaker](https://banner.godori.dev/) | README | images | banner |
+
+#### Missing Links
+
+Some of media links direct to the main site of where the website were found. This is due to not having all of them being saved for whatever reason, and all attempts to find them again failed. Moving forward, I'll make it a priority to save all media whether it is used or not. 
 
 ### Acknowledgements
 
