@@ -288,7 +288,7 @@ Contact
 
  - **Add Visual Ques** 
 
-  - Add visual ques to the flip-cars, to make the more apparent that they flip. 
+   - Add visual ques to the flip-cars, to make the more apparent that they flip. 
 
 ## Tools & Technologies Used
 
