@@ -379,13 +379,29 @@ You can fork this repository by using the following steps:
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | home page | image | hero images |
-| [Pexels](https://www.pexels.com) | home page | images | carousel backgorund |
-| [Pexels](https://www.pexels.com) | home page | video | demonstration videos |
-| [Pexels](https://www.pexels.com) | history page | images | backgrounds |
-| [Youtube](https://www.pexels.com) | home page | video | introduction video |
-| [Giphy](https://giphy.com) | 404 Page | GIFs | 404 Cats|
-| [FontAwesome](https://fontawesome.com/) | entire site | images | navigation icons |
+| [Pexels](https://www.pexels.com/photo/a-group-of-people-in-taekwondo-uniform-standing-near-the-brick-wall-7045669/) | home page | image | banner image #1 |
+| [Pexels](https://www.pexels.com/photo/a-man-practicing-kick-boxing-while-on-the-beach-5895898/) | home page | image | banner image #2 |
+| [Pexels](https://www.pexels.com/photo/men-doing-martial-arts-8612067/) | home page | image | banner image #3 |
+| [Youtube](https://www.youtube.com/watch?v=JpRJLg9Lq5g&source_ve_path=Mjg2NjY&feature=emb_logo) | home page | video | intro video |
+| [Pexels](https://www.pexels.com/photo/woman-grabbing-a-man-6765030/) | home page | image | technique card #1 |
+| [Pexels](https://www.pexels.com/) | home page | image | technique card #2 |
+| [Pexels](https://www.pexels.com/) | home page | image | technique card #3 |
+| [Pexels](https://www.pexels.com/) | home page | images | beginner's guide backgorund |
+| [Pexels](https://www.pexels.com/video/woman-putting-on-her-karategi-and-tying-her-white-belt-7045267/) | home page | video | demonstration video #1 |
+| [Pexels](https://www.pexels.com/video/men-bowing-down-at-each-other-6253406/) | home page | video | demonstration video #2 |
+| [Pexels](https://www.pexels.com/video/men-doing-judo-6254567/) | home page | video | demonstration video #3 |
+| [Pexels](https://www.pexels.com/photo/turned-on-street-light-590478/) | history page | images | background #1 |
+| [Pexels](https://www.pexels.com/photo/girl-walking-on-street-with-brazilian-flag-on-wall-16162211/) | history page | images | background #2 |
+| [Giphy](https://giphy.com/gifs/SappySealsCommunity-sappy-1-of-one-U6GixhwsEXOlZSYvqq?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=) | 404 Page | GIFs | 404 Cat #1|
+| [Giphy](https://giphy.com/gifs/SappySealsCommunity-sappy-1-of-one-BvNIKrJKQOEnATn76J?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=) | 404 Page | GIFs | 404 Cat #2|
+| [Giphy](https://giphy.com/gifs/SappySealsCommunity-sappy-1-of-one-1fnnX7RL2JrlUvII1V?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=) | 404 Page | GIFs | 404 Cat #3|
+| [FontAwesome](https://fontawesome.com/icons/house?f=classic&s=solid) | entire site | images | house navigation icon |
+| [FontAwesome](https://fontawesome.com/icons/earth-asia?f=classic&s=solid) | entire site | images | world navigation icon |
+| [FontAwesome](https://fontawesome.com/icons/comments?f=classic&s=solid) | entire site | images | comment navigation icon |
+| [FontAwesome](https://fontawesome.com/icons/snapchat?f=brands&s=solid) | entire site | images | social media icons |
+| [FontAwesome](https://fontawesome.com/icons/instagram?f=brands&s=solid) | entire site | images | social media icons |
+| [FontAwesome](https://fontawesome.com/icons/facebook?f=brands&s=solid) | entire site | images | social media icons |
+| [FontAwesome](https://fontawesome.com/icons/x-twitter?f=brands&s=solid) | entire site | images | social media icons |
 | [Shields.io](https://shields.io/) | README | images | shields |
 | [BannerMaker](https://banner.godori.dev/) | README | images | banner |
 
