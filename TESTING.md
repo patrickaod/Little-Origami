@@ -54,27 +54,22 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/testing/lighthouse/mstats-hmpg.png) | ![screenshot](documentation/testing/lighthouse/dstats-hmpg.png) | ? |
-| History | ![screenshot](documentation/testing/lighthouse/mstats-history.png) | ![screenshot](documentation/testing/lighthouse/dstats-history.png) | ? |
-| 404 | ![screenshot](documentation/testing/lighthouse/mstats-404.png) | ![screenshot](documentation/testing/lighthouse/dstats-404.png) | ? |
-| Confirmation | ![screenshot](documentation/testing/lighthouse/mstats-confirmation.png) | ![screenshot](documentation/testing/lighthouse/dstats-confirmation.png) | ? |
-| Contact | ![screenshot](documentation/testing/lighthouse/mstats-contact.png) | ![screenshot](documentation/testing/lighthouse/dstats-contact.png) | ? |
+| Home | ![screenshot](documentation/testing/lighthouse/mstats-hmpg.png) | ![screenshot](documentation/testing/lighthouse/dstats-hmpg.png) | Slow response time due to large images |
+| History | ![screenshot](documentation/testing/lighthouse/mstats-history.png) | ![screenshot](documentation/testing/lighthouse/dstats-history.png) | Some minor warnings |
+| 404 | ![screenshot](documentation/testing/lighthouse/mstats-404.png) | ![screenshot](documentation/testing/lighthouse/dstats-404.png) | Some minor warnings |
+| Confirmation | ![screenshot](documentation/testing/lighthouse/mstats-confirmation.png) | ![screenshot](documentation/testing/lighthouse/dstats-confirmation.png) | Good Response time |
+| Contact | ![screenshot](documentation/testing/lighthouse/mstats-contact.png) | ![screenshot](documentation/testing/lighthouse/dstats-contact.png) | Good Response time |
 
 ## User Story Testing 
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to enjoy my hobby, so that I can have a great day. | ![screenshot](documentation/features/flip-cards.png) |
+| As a new site user, I would like to to learn, so that I can feel more confident. | ![screenshot](documentation/features/flip-cards.png) |
+| As a new site user, I would like to find reputable content on Jui-Jitsu, so that I can have confidence in what I'm learning. | ![screenshot](documentation/features/intro-vd.png) |
+| As a new site user, I would like to to learn more, so that I can start today. | ![screenshot](documentation/features/b-guide.png)
+| As a returning site user, I would like to help contribute to the community, so that I feel more conenected. | ![screenshot](documentation/features/contact-form.png) |
+| As a returning site user, I would like to finding new features and content, so that I can be more engaged. | ![screenshot](documentation/features/hist-scoll.png) |
 
 ## Bugs
-
-## Unfixed Bugs
+> There are no remaining bugs that I am aware of.
