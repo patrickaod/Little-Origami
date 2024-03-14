@@ -396,13 +396,13 @@ You can fork this repository by using the following steps:
 | [Giphy](https://giphy.com/gifs/SappySealsCommunity-sappy-1-of-one-U6GixhwsEXOlZSYvqq?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=) | 404 Page | GIFs | 404 Cat #1|
 | [Giphy](https://giphy.com/gifs/SappySealsCommunity-sappy-1-of-one-BvNIKrJKQOEnATn76J?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=) | 404 Page | GIFs | 404 Cat #2|
 | [Giphy](https://giphy.com/gifs/SappySealsCommunity-sappy-1-of-one-1fnnX7RL2JrlUvII1V?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=) | 404 Page | GIFs | 404 Cat #3|
-| [FontAwesome](https://fontawesome.com/icons/house?f=classic&s=solid) | entire site | images | house navigation icon |
-| [FontAwesome](https://fontawesome.com/icons/earth-asia?f=classic&s=solid) | entire site | images | world navigation icon |
-| [FontAwesome](https://fontawesome.com/icons/comments?f=classic&s=solid) | entire site | images | comment navigation icon |
-| [FontAwesome](https://fontawesome.com/icons/snapchat?f=brands&s=solid) | entire site | images | social media icons |
-| [FontAwesome](https://fontawesome.com/icons/instagram?f=brands&s=solid) | entire site | images | social media icons |
-| [FontAwesome](https://fontawesome.com/icons/facebook?f=brands&s=solid) | entire site | images | social media icons |
-| [FontAwesome](https://fontawesome.com/icons/x-twitter?f=brands&s=solid) | entire site | images | social media icons |
+| [FontAwesome](https://fontawesome.com/icons/house?f=classic&s=solid) | entire site | images | home icon |
+| [FontAwesome](https://fontawesome.com/icons/earth-asia?f=classic&s=solid) | entire site | images | history icon |
+| [FontAwesome](https://fontawesome.com/icons/comments?f=classic&s=solid) | entire site | images | contact navigation icon |
+| [FontAwesome](https://fontawesome.com/icons/snapchat?f=brands&s=solid) | entire site | images | snapchat icon |
+| [FontAwesome](https://fontawesome.com/icons/instagram?f=brands&s=solid) | entire site | images | instagram icon |
+| [FontAwesome](https://fontawesome.com/icons/facebook?f=brands&s=solid) | entire site | images | facebook icon |
+| [FontAwesome](https://fontawesome.com/icons/x-twitter?f=brands&s=solid) | entire site | images | twitter icon |
 | [Shields.io](https://shields.io/) | README | images | shields |
 | [BannerMaker](https://banner.godori.dev/) | README | images | banner |
 
