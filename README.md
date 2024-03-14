@@ -38,9 +38,7 @@ Two additional pages were added to increse the depth and flexability.
 
 #### 404 Page
 
-The 404 page enabled the early deployment and review of the site. As content was updated so to were the 404 page appointed links. 
-
-It was design to incentavise free bug reporting and was seen as a great opportunity for user relations. 
+The 404 page enabled the early deployment and review of the site. As content was updated so to were unfinished link that lead to the 404 page. 
 
 ![Little Origmai 404 Page](documentation/overview/404-pg.jpeg)
 
@@ -202,45 +200,73 @@ Contact
 
     - An easy to use navigation menu, that gives user-friendly access to all the available content on the site. This benifits the users by respecting their time. Overall positively adding to their user experience.
 
-![Little Origami Navigation Menu](documentation/lo-nav-menu.png)
+![Little Origami Navigation Menu](documentation/features/nav-menu.png)
 
 - **Bootstrap 5 Carosuel - Hero Banner**
 
     - A striking introductory slideshow aimed at showcasing interesting aspects of Jui-Jitsu in picture form. The focal point can then be used to draw users attention to something more specific in the future. This benefit the user by giving them a sense of what the website is about. 
 
-![A introductory slideshow](documentation/hero-banner.png)
+![A introductory slideshow](documentation/features/hero-banner.png)
 
-- **Introduction**
+- **Introduction-Text**
 
-    - The introductory section aims to inform the reader about what the websites intent is and where to go next. The benefit to the user is the speed at which they deseren their next discission.
+    - The introductory section aims to give guidence to the user, by inform them the intent of the website and where to go next. Therefore, this paragraph was designed as a sign post, so it had to be short to the point with as much information as possible for the user to navigate more quickly. 
 
-![Home page introduction](documentation/introduction.png)
+![Home page introduction](documentation/features/intro-p.png)
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#3 }}**
+- **Introductory-Video**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Joe Rogan is one of the most well known people in the world, and is very knowledgable about Jiu-Jitsu. As he himself has a black belt and is a commentator for the UFC. Adding this content here breaks up the text for the user giving them something else entertaining to enjoy. The value this delivers to the website is legitamcy, as Joe Rogan is reputable source on the sport that many people like. 
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#3 }}**
+![Home page introduction](documentation/features/intro-vd.png)
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+- **The Technique Cards**
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#3 }}**
+    - The technique cards are animated bootstrap cards. That reveal conent hidden on teh back. The goal was to present the in an interest way, with this idea representing the flipping off an opponent in Jiu-Jitsu. This is great an interactive element of the website that require no JS. Making run times faster and a better overall user experience. 
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+![Home page introduction](documentation/features/flip-cards.png)
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#3 }}**
+- **Beginner's Guide**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The beginner's guidue is short list of helplful tips the user can use to feel more confident to make a decision. Instead of writing a list staking the infomaiton in a Bootstrap carousel made it more fun and interactive for the user. Improving the overall experience. 
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#3 }}**
+![Home page introduction](documentation/features/b-guide.png)
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+- **Demonstation Videos**
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#3 }}**
+    - The demonstation videos were extra content added, to fill the space. To make it more interesting to the user. 
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+![Home page introduction](documentation/features/demo-vd.png)
 
-![screenshot](documentation/feature03.png)
+- **Footer**
+
+    - The footer is a simple collect of social media links, a direct link to the contact page, and a call to action. Giving the user options and to keep them moving through the website. 
+
+![Home page introduction](documentation/features/footer.png)
+
+- **History Page - Scroll Animations**
+
+    - The scroll animaitons add an entertainment value to the text. Making the content more engaging and valuable to the user. 
+
+![screenshot](documentation/features/hist-scoll.png)
+
+- **Contact Form**
+
+    - The contact form allows the users to feel more connected to the website. To form a community around Little Orgiami. Legitimising the site and potentially creating repeat visiting users. 
+
+![screenshot](documentation/features/contact-form.png)
+
+- **404 Cats**
+
+    - The page was design to incentavise free bug reporting and was seen as a great opportunity for user relations. 
+
+![screenshot](documentation/features/404-cats.png)
+
+- **Confirmation Message**
+
+    - The confimration message provides assurance to the user their request was sent. It's an additional layer of design quality.
+
+![screenshot](documentation/features/loading-message.png)
 
 ### Future Features 
 
@@ -255,6 +281,14 @@ Contact
 
 - **Finding a Dojo Near You**
     - Using the Google API to find dojos near the addresses of the users, to make the value propersition of the website higher.
+
+- **Pop-out Videos**
+
+  - Allow the videos to be popped out and stick with the user for a more enjoyable experience. 
+
+ - **Add Visual Ques** 
+
+  - Add visual ques to the flip-cars, to make the more apparent that they flip. 
 
 ## Tools & Technologies Used
 
@@ -279,6 +313,10 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://patrickaod.github.io/Little-Origami)
+
+### Git Commit Messages
+
+I've become aware that I've been using the wrong tense for my commit messages. This mistake unfortuately can't be remedied, but moving forwards I will use the presenet tense when sending messages. 
 
 ### Local Deployment
 
