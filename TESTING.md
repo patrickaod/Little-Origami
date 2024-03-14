@@ -22,7 +22,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| assets | style.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| assets | style.css | ![error screenshot](documentation/testing/css-validator/jigsaw-validator.png) | ??? |
 
 ## Browser Compatibility
 
@@ -38,15 +38,15 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-about.png) | ![screenshot](documentation/responsive-mobile-contact.png) | ![screenshot](documentation/responsive-mobile-etc.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-about.png) | ![screenshot](documentation/responsive-tablet-contact.png) | ![screenshot](documentation/responsive-tablet-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-about.png) | ![screenshot](documentation/responsive-desktop-contact.png) | ![screenshot](documentation/responsive-desktop-etc.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl-home.png) | ![screenshot](documentation/responsive-xl-about.png) | ![screenshot](documentation/responsive-xl-contact.png) | ![screenshot](documentation/responsive-xl-etc.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k-home.png) | ![screenshot](documentation/responsive-4k-about.png) | ![screenshot](documentation/responsive-4k-contact.png) | ![screenshot](documentation/responsive-4k-etc.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel-home.png) | ![screenshot](documentation/responsive-pixel-about.png) | ![screenshot](documentation/responsive-pixel-contact.png) | ![screenshot](documentation/responsive-pixel-etc.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone-home.png) | ![screenshot](documentation/responsive-iphone-about.png) | ![screenshot](documentation/responsive-iphone-contact.png) | ![screenshot](documentation/responsive-iphone-etc.png) | Works as expected |
+| Device | Home | History | Contact | Notes |
+| --- | --- | --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness/small-mobile-home.png) | ![screenshot](documentation/testing/responsiveness/small-mobile-history.png) | ![screenshot](documentation/testing/responsiveness/small-mobile-contact.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/testing/responsiveness/tablet-home.png) | ![screenshot](documentation/testing/responsiveness/tablet-history.png) | ![screenshot](documentation/testing/responsiveness/tablet-contact.png) | Works as expected |
+| Desktop (DevTools) | ![screenshot](documentation/testing/responsiveness/desktop-home.png) | ![screenshot](documentation/testing/responsiveness/desktop-history.png) | ![screenshot](documentation/testing/responsiveness/desktop-contact.png) | Works as expected |
+| XL Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness/xl-monitor-home.png) | ![screenshot](documentation/testing/responsiveness/xl-monitor-history.png) | ![screenshot](documentation/testing/responsiveness/xl-monitor-contact.png) | Works as expected |
+| 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness/4k-home.png) | ![screenshot](documentation/testing/responsiveness/4k-history.png) | ![screenshot](documentation/testing/responsiveness/4k-contact.png) | Works as expected, contact form starting to shrink |
+| Mobile Medium (DevTools) | ![screenshot](documentation/testing/responsiveness/medium-mobile-home.png) | ![screenshot](documentation/testing/responsiveness/medium-mobile-history.png) | ![screenshot](documentation/testing/responsiveness/medium-mobile-contact.png) | Works as expected |
+| Mobile large (DevTools) | ![screenshot](documentation/testing/responsiveness/large-mobile-home.png) | ![screenshot](documentation/testing/responsiveness/large-mobile-history.png) | ![screenshot](documentation/testing/responsiveness/large-mobile-contact.png) | Works as expected |
 
 ## Lighthouse Audit
 
