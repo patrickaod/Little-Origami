@@ -22,7 +22,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| assets | style.css | ![error screenshot](documentation/testing/css-validator/jigsaw-validator.png) | ??? |
+| assets | style.css | ![error screenshot](documentation/testing/css-validator/jigsaw-validator.png) |  |
 
 ## Browser Compatibility
 
