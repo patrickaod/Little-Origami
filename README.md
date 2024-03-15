@@ -10,14 +10,13 @@
 
 Little Orgiami is designed to be a seemless flow of information for the reader to enjoy, understand, and use. 
 
-This is accomplished through three static HTML/CSS pages: 
+This is accomplished through three responsive HTML/CSS pages: 
 
 ### The First Page
 
 The index page contains demonstation videos, brief informative articles, and interactive elements that aim to inspire confidence in the user.
 
 ![Little Origami Index Page](documentation/overview/index-pg.jpeg)
-
 
 ### The Second Page
 
@@ -27,14 +26,13 @@ The history page utilises scroll animations to tell the story of Jui-Jitsu as it
 
 ### The Final Page
 
-The contact page allows users to send a message through a bootstrap form, in order to foster a community around Little Origami.
+The contact page allows users to send a message through a bootstrap form in order to foster a community around Little Origami.
 
 ![Little Origami Contact Page](documentation/overview/contact-pg.jpeg)
 
-
 ### Additional Pages 
 
-Two additional pages were added to increse the depth and flexability. 
+Two additional pages were added to increse the depth and flexability of the site. 
 
 #### 404 Page
 
@@ -42,50 +40,49 @@ The 404 page enabled the early deployment and review of the site. As content was
 
 ![Little Origmai 404 Page](documentation/overview/404-pg.jpeg)
 
-
 #### Confirmation Page
 
-The confimation page adds depth to form submission experience. Thanking the user for their input before returning them to Home Page completing their journey.
-
+The confimation page adds depth to the form submission experience. Thanking the user for their input before returning them to Home Page completing their journey around the website.
 
 ![Little Origami Confirmation Page](documentation/overview/confimation-pg.jpeg)
 
-
 ## UX
 
-The overall design of Little Origami was to be a balance between striking and elegent. Reflective of the current trends within the martial arts space. 
+The goal of the design for Little Origami was to be a balance between striking and elegent. Reflective of the current trends within the martial arts space. 
 
-Libral use of contrasting colours, with bold images caputes the striking element. While, the fonts and the flow of the overall information seek to provide an aesthetic of elegence or refinement.
+Libral use of contrasting colours, with bold images caputes the striking element. While, the fonts and the flow and the flow of information showcase an elegent or refined aesthetic.
 
 ### Colour Scheme 
 
-A trend among martial arts website is to use red, black, and yellow on a white background. This is a nod to the white gui adorned by the different coloured belts. Grey and darker shades are generally thrown in to contast these colours. The effect is an overall refined but striking website; perfect for martial arts. 
+A trend among martial arts websites is to use red, black, and yellow on a white background. This is a nod to the white gui adorned by the different coloured belts within the sport. Grey and darker shades are generally thrown in to contast these colours. The effect is an overall refined but striking website; perfect for martial arts. 
 
-For this project, I chose to mostly follow this trend. As the most commonly used colours were black, yellow, and red. The colour palette looks as follows: 
+For this project, I chose to mostly follow this trend. As the colour palette for this website looks as follows: 
 
 ![Little Origami Colour Palette](documentation/colours/colour-scheme.png)
 
 #### Color Application 
 
-I opted to use #212529 - Eerie Black as the background. It tied the website's logo, content, and design better than a lighter alternative. The logo and branding are the focal point for this decision as it is better highlighted by the darkness. 
+I opted to use #212529 - Eerie Black for the background colour as it tied the website's logo, content, and design better than a lighter alternative. 
 
-The #FFFF00 - Yellow, FF0000 - Red, & #870000 - Dark red were all chosen to make the website as stiking as possible, and were used as follows:
+The #FFFF00 - Yellow, FF0000 - Red, & #870000 - Dark red were all chosen to make the website as stiking as possible, which all were used in the creation of the logo and branding.
 
-- #FFFF00 - Yellow was use for the all the primary links and headings. 
+ The colours were then used as follows:
+
+- #FFFF00 - Yellow was use for the all the links and primary headings. 
 
 - #FF0000 - Red was used for all subheadings. 
 
-- #870000 - Dark Red was used in combination with black as a gradient background colour. 
+- #870000 - Dark Red was used in combination with black as a gradient background colour, and hovered links. 
 
-- #FFFFFF was used for the primary text as to keep good contrast. 
+- #FFFFFF was used for the primary text to keep good contrast. 
 
-- #000000 was used in certain instances when the background was of a lighter colour. 
+- #000000 was used in certain instances when the background was a lighter colour. 
 
 #### Additional Colours 
 
-For the two additional pages, I chose an alternative background to add some personallity into the project. As way of leaving my mark (a trademark) on the project. 
+For the two additional pages, I chose an alternative background to add some personallity into my project. As way of leaving my mark (a trademark) on the project. 
 
-The colours I used in a 45&deg; gradient are as follows:
+The colours I used were applied as a 45&deg; gradient and are as follows:
 
 - #833AB4 - Grape 
 - #FD1D1D - Red 
@@ -95,9 +92,11 @@ The colours I used in a 45&deg; gradient are as follows:
 
 ### Typography
 
-The aim of the type and icons is to create a fluid reading experience, but displayed in an eastern style. 
+The aim of the font and icons are to create a fluid reading experience. Roboto was great choice as for readability, as evidenced by being a consistent top trending font on google fonts store.  
 
-The eastern style gives an impression of elegency and refinement, but also adds legitimacy. Legitimacy that can be traced back through history. Therefore, this is a very important consideration for the website, and is achieved through the following fonts & icons:
+However, I've opt to make the headings in a more eastern style of type. The eastern style gives an impression of elegance, but also legitimacy. Legitimacy that can be traced back through tested history from today to in this case fudal Japan. Therefore, this is a very important consideration for the website. 
+
+All font and icons used are as follows:
  
 - [Protest Revolution](https://fonts.google.com/specimen/Protest+Revolution?query=protest+revolution) was used for the logo brand and primary headings.
 
@@ -110,8 +109,6 @@ The eastern style gives an impression of elegency and refinement, but also adds 
 - [Bootstrap Native Font Stack](https://getbootstrap.com/docs/5.0/content/reboot/) was used as a back-up collection of font families.
 
 - Sans-Sarif was used as a final redundant font. 
-
-Protest Revolution & Strike were a great choice to represent more tranditonal eastern styles, while Roboto creates a nice reading expience for the bulk of the content. 
 
 The Font Awesome icons were a great addition to the website adding an extra layer of refinement, especially using the east-asia-world icon for the history navigaiton link. 
 
@@ -196,50 +193,54 @@ Contact
 
 - **Bootstrap 5 - Navigation bar**
 
-    - An easy to use navigation menu, that gives user-friendly access to all the available content on the site. This benifits the users by respecting their time. Overall positively adding to their user experience.
+    - An easy to use navigation menu, that gives user-friendly access to all the available content on the site. This benefits the user by respecting their time, and has an overall positive effect on their user experience.
 
 ![Little Origami Navigation Menu](documentation/features/nav-menu.png)
 
 - **Bootstrap 5 Carosuel - Hero Banner**
 
-    - A striking introductory slideshow aimed at showcasing interesting aspects of Jui-Jitsu in picture form. The focal point can then be used to draw users attention to something more specific in the future. This benefit the user by giving them a sense of what the website is about. 
+    - An introductory slideshow aimed at showcasing interesting aspects of Jui-Jitsu in picture form. The focal point can then be used to draw users attention to something more specific in the future. This benefits the user by giving them a sense of what to expect. 
 
 ![A introductory slideshow](documentation/features/hero-banner.png)
 
 - **Introduction-Text**
 
-    - The introductory section aims to give guidence to the user, by inform them the intent of the website and where to go next. Therefore, this paragraph was designed as a sign post, so it had to be short to the point with as much information as possible for the user to navigate more quickly. 
+    - The introductory text aims to give guidence to new users, by inform them the intent of the website and where to go next. Therefore, this paragraph was designed as a sign post. It had to be short, to the point, with as much information as possible for the user to navigate more quickly. 
 
 ![Home page introduction](documentation/features/intro-p.png)
 
 - **Introductory-Video**
 
-    - Joe Rogan is one of the most well known people in the world, and is very knowledgable about Jiu-Jitsu. As he himself has a black belt and is a commentator for the UFC. Adding this content here breaks up the text for the user giving them something else entertaining to enjoy. The value this delivers to the website is legitamcy, as Joe Rogan is reputable source on the sport that many people like. 
+    - Joe Rogan is one of the most well recognised people in the world, and is very knowledgable about Jiu-Jitsu. As he himself has a black belt and is a commentator for the UFC. Adding this content here breaks up the text for the users.Giving them something else entertaining to enjoy. The value this delivers to the website is legitimacy, as Joe Rogan is reputable source on the sport that many people like. 
 
 ![Home page introduction](documentation/features/intro-vd.png)
 
 - **The Technique Cards**
 
-    - The technique cards are animated bootstrap cards. That reveal conent hidden on teh back. The goal was to present the in an interest way, with this idea representing the flipping off an opponent in Jiu-Jitsu. This is great an interactive element of the website that require no JS. Making run times faster and a better overall user experience. 
+    - The technique cards are animated HTML/CSS cards that reveal hidden content. The goal was to present the information in a more interest way. The design idea was to simulate the flipping off an opponent in Jiu-Jitsu, making a fun and interactive experience for the user. 
+    
+    - The effect doesn't require any JS. Making run times faster and a better overall user experience. 
 
 ![Home page introduction](documentation/features/flip-cards.png)
 
 - **Beginner's Guide**
 
-    - The beginner's guidue is short list of helplful tips the user can use to feel more confident to make a decision. Instead of writing a list staking the infomaiton in a Bootstrap carousel made it more fun and interactive for the user. Improving the overall experience. 
+    - The beginner's guide is short list of helplful tips that a user can easily and understand, in order to feel more confident to make a decision. 
+    
+    - Instead of writing a list and staking the infomaiton, I opted to display the infomration in a Bootstrap carousel. It made the presentation more compact and ultimately more fun for the end user. Improving the overall experience. 
 
 ![Home page introduction](documentation/features/b-guide.png)
 
 - **Demonstation Videos**
 
-    - The demonstation videos were extra content added, to fill the space. To make it more interesting to the user. 
+    - The demonstation videos were extra content added to make the section more interesting to the user, and take away from the emptiness retaining that intrest. 
 
 ![Home page introduction](documentation/features/demo-vd.png)
 
 - **Footer**
 
-    - The footer is a simple collect of social media links, a direct link to the contact page, and a call to action. Giving the user options and to keep them moving through the website. 
-
+    - The footer at the end of the page isn't the end. The user can follow us on social media or contact us directly. It was important to keep the user engaged in the site to see all the content, instead of clicking off when they reach the bottom. This is why there are a collection of links and a call to action in the footer to help prompt the user.
+    
 ![Home page introduction](documentation/features/footer.png)
 
 - **History Page - Scroll Animations**
@@ -286,7 +287,7 @@ Contact
 
  - **Add Visual Ques** 
 
-   - Add visual ques to the flip-cars, to make the more apparent that they flip. 
+   - Add visual ques to the flip-cards, to make the more apparent that they flip. 
 
 ## Tools & Technologies Used
 
@@ -408,7 +409,7 @@ You can fork this repository by using the following steps:
 
 #### Missing Links
 
-Some of the media links direct to the main site of where the website were found. This is due to not having all of them being saved for whatever reason, and all attempts to find them again failed. Moving forward, I'll make it a priority to save all media whether it is used or not. 
+Unfortunately, some off the links for the media used in the site was lost. I'll endevour to have a mroe robust saving practice in future, as I understand the importance of keeping track of these things. 
 
 ### Acknowledgements
 
